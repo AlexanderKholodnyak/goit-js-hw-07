@@ -1,0 +1,6 @@
+#gallery {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  list-style-type: none;
+}
