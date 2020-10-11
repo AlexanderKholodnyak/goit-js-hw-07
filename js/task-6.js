@@ -35,6 +35,7 @@ const validation = function () {
     input.classList.remove('invalid');
   } else {
     input.classList.add('invalid');
+    input.classList.remove('valid');
   }
 };
 input.addEventListener('blur', validation);
